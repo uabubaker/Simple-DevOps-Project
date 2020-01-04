@@ -24,7 +24,7 @@
    tomcatup
    ```
   #### Check point :
-access tomcat application from browser on prot 8080  
+access tomcat application from browser on port 8080  
  - http://<Public_IP>:8080
 
   Using unique ports for each application is a best practice in an environment. But tomcat and Jenkins runs on ports number 8080. Hence lets change tomcat port number to 8090. Change port number in conf/server.xml file under tomcat home
@@ -35,6 +35,9 @@ access tomcat application from browser on prot 8080
 tomcatdown
 tomcatup
 ```
+
+Server may not respond on the new port. So try, exposing the new port first from AWS or whatever provider you're using.
+
 #### Check point :
 Access tomcat application from browser on prot 8090  
  - http://<Public_IP>:8090
