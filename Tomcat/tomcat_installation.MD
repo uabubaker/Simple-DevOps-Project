@@ -36,7 +36,7 @@ tomcatdown
 tomcatup
 ```
 
-Server may not respond on the new port. So try, exposing the new port first from AWS or whatever provider you're using.
+NOTE: Server may not respond on the new port. So try, exposing the new port first from AWS or whatever provider you're using.
 
 #### Check point :
 Access tomcat application from browser on prot 8090  
